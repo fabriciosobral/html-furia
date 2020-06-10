@@ -1,0 +1,62 @@
+body {
+  background-image: url(../../imagens/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  height: 100%;
+  background-attachment: fixed;
+}
+body p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body .test {
+  height: 40px;
+}
+body .group {
+  margin-top: 40px;
+}
+body .logo img {
+  width: 80%;
+}
+body .reward .premium {
+  background-color: #1e3c96;
+  border-radius: 10px;
+  padding: 5px 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #FFF;
+  width: 100px;
+  position: relative;
+  top: 9px;
+  font-size: 11px;
+  left: 80px;
+}
+body .reward .gift {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: solid 2px #1e3c96;
+  padding: 10px 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+}
+body .points {
+  background-color: #c8000a;
+  border-radius: 10px;
+  border: solid 2px #fff;
+  padding: 10px 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  max-height: 49px;
+  margin-top: 25px;
+  margin-left: 5px;
+}
+body .background-players {
+  background-color: #000;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 99px;
+}
