@@ -23,87 +23,14 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container all">
         <div class="row">
             <div class="col-sm-6">
                 <div class="logo">
                     <img src="imagens/logo.png" class="img-fluid">
                 </div>
                 <div>
-                    <div class="line">
-                        <div class="player-score">
-                            <h1>Name</h1>
-                            <div class="all-player">
-                                <img src="imagens/anonimo.png">
-                            </div>
-                            <div class="health">
-                                <h1>80</h1>
-                            </div>
-                        </div>
-                        <div class="player-score">
-                            <h1>Name</h1>
-                            <div class="all-player">
-                                <img src="imagens/anonimo.png">
-                            </div>
-                            <div class="health">
-                                <h1>80</h1>
-                            </div>
-                        </div>
-                        <div class="player-score">
-                            <h1>Name</h1>
-                            <div class="all-player">
-                                <img src="imagens/anonimo.png">
-                            </div>
-                            <div class="health">
-                                <h1>80</h1>
-                            </div>
-                        </div>
-                        <div class="player-score">
-                            <h1>Name</h1>
-                            <div class="all-player">
-                                <img src="imagens/anonimo.png">
-                            </div>
-                            <div class="health">
-                                <h1>80</h1>
-                            </div>
-                        </div>
-                        <div class="player-score">
-                            <h1>Name</h1>
-                            <div class="all-player">
-                                <img src="imagens/anonimo.png">
-                            </div>
-                            <div class="health">
-                                <h1>80</h1>
-                            </div>
-                        </div>
-                        <div class="player-score">
-                            <h1>Name</h1>
-                            <div class="all-player">
-                                <img src="imagens/anonimo.png">
-                            </div>
-                            <div class="health">
-                                <h1>80</h1>
-                            </div>
-                        </div>
-                        <div class="player-score">
-                            <h1>Name</h1>
-                            <div class="all-player">
-                                <img src="imagens/anonimo.png">
-                            </div>
-                            <div class="health">
-                                <h1>80</h1>
-                            </div>
-                        </div>
-                        <div class="player-score">
-                            <h1>Name</h1>
-                            <div class="all-player">
-                                <img src="imagens/anonimo.png">
-                            </div>
-                            <div class="health">
-                                <h1>80</h1>
-                            </div>
-                        </div>
-                    </div>
+                    <?php include 'line.php';?>
                 </div>
             </div>
             <div class="col-sm-6">

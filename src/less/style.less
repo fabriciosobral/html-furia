@@ -1,5 +1,10 @@
 @primary-color: #1e3c96;
 
+@font-face {
+    font-family: 'consolas';
+    src        : url(../../fonts/consolas.ttf);
+}
+
 body {
     background-image     : url(../../imagens/bg.png);
     background-repeat    : no-repeat;
@@ -7,8 +12,22 @@ body {
     background-position  : left center;
     height               : 100%;
     background-attachment: fixed;
+    font-family          : consolas;
 
-    p {
+    .all {
+        margin-bottom: 100px;
+    }
+
+    .bar-5 {
+        width           : 80%;
+        height          : 13px;
+        background-color: red;
+    }
+
+    p,
+    h1,
+    h2,
+    h3 {
         margin : 0;
         padding: 0;
         border : 0;
@@ -17,15 +36,63 @@ body {
     .test {
         height: 40px;
     }
-    .group{
+
+    .group {
         margin-top: 40px;
     }
 
     .logo {
+        position: center;
+
         img {
-            width      : 80%;
+            width: 70%;
         }
     }
+
+    .line {
+        display       : flex;
+        flex-direction: row;
+        margin-bottom : 5px;
+
+        .player-score {
+            width       : 65px;
+            margin-right: 2px;
+            background-color: black;
+
+            .container-bar {
+                background-color: black;
+            }
+            h1 {
+                text-align      : center;
+                width           : 65px;
+                height          : 13px;
+                font-size       : 12px;
+                color           : #fff;
+                background-color: black;
+            }
+
+            h2 {
+                text-align      : center;
+                width           : 65px;
+                height          : 13px;
+                font-size       : 12px;
+                color           : #fff;
+            }
+
+            .all-player {
+                img {
+                    width : 65px;
+                    height: 65px;
+                }
+            }
+
+            .health {
+                width : 65px;
+                height: 13px;
+            }
+        }
+    }
+
 
     .reward {
         .premium {
@@ -58,19 +125,49 @@ body {
         border-radius   : 10px;
         border          : solid 2px #fff;
         padding         : 10px 40px;
-        text-align      : center;
+        text-align      : left;
         font-weight     : bold;
         color           : #fff;
         max-height      : 49px;
         margin-top      : 25px;
         margin-left     : 5px;
     }
-    .background-players{
-        background-color: #000;
-        border-radius: 5px;
-        margin-top: 10px;
-        margin-right: 99px;
+
+
+    .background-players {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius   : 5px;
+        margin-top      : 10px;
+        margin-right    : 99px;
+        padding         : 25px 25px 25px 10px;
+
+        .player {
+            img {
+                object-fit  : cover;
+                width       : 57px;
+                height      : 56px;
+                border      : solid 2px #3ea48a;
+                margin-right: 10px;
+            }
+        }
+
+        .player-action {
+            color    : #fff;
+            font-size: 10px;
+        }
+
+        .player-division {
+            margin-bottom: 15px;
+        }
+
+        .row {
+            max-height   : 667px;
+            overflow-y   : auto;
+            --scrollbarBG: #000;
+            --thumbBG    : red;
+        }
     }
-        
+
+
 
 }

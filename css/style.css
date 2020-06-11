@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'consolas';
+  src: url(../../fonts/consolas.ttf);
+}
 body {
   background-image: url(../../imagens/bg.png);
   background-repeat: no-repeat;
@@ -5,8 +9,20 @@ body {
   background-position: left center;
   height: 100%;
   background-attachment: fixed;
+  font-family: consolas;
 }
-body p {
+body .all {
+  margin-bottom: 100px;
+}
+body .bar-5 {
+  width: 80%;
+  height: 13px;
+  background-color: red;
+}
+body p,
+body h1,
+body h2,
+body h3 {
   margin: 0;
   padding: 0;
   border: 0;
@@ -17,8 +33,47 @@ body .test {
 body .group {
   margin-top: 40px;
 }
+body .logo {
+  position: center;
+}
 body .logo img {
-  width: 80%;
+  width: 70%;
+}
+body .line {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+body .line .player-score {
+  width: 65px;
+  margin-right: 2px;
+  background-color: black;
+}
+body .line .player-score .container-bar {
+  background-color: black;
+}
+body .line .player-score h1 {
+  text-align: center;
+  width: 65px;
+  height: 13px;
+  font-size: 12px;
+  color: #fff;
+  background-color: black;
+}
+body .line .player-score h2 {
+  text-align: center;
+  width: 65px;
+  height: 13px;
+  font-size: 12px;
+  color: #fff;
+}
+body .line .player-score .all-player img {
+  width: 65px;
+  height: 65px;
+}
+body .line .player-score .health {
+  width: 65px;
+  height: 13px;
 }
 body .reward .premium {
   background-color: #1e3c96;
@@ -47,7 +102,7 @@ body .points {
   border-radius: 10px;
   border: solid 2px #fff;
   padding: 10px 40px;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
   color: #fff;
   max-height: 49px;
@@ -55,8 +110,29 @@ body .points {
   margin-left: 5px;
 }
 body .background-players {
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   margin-top: 10px;
   margin-right: 99px;
+  padding: 25px 25px 25px 10px;
+}
+body .background-players .player img {
+  object-fit: cover;
+  width: 57px;
+  height: 56px;
+  border: solid 2px #3ea48a;
+  margin-right: 10px;
+}
+body .background-players .player-action {
+  color: #fff;
+  font-size: 10px;
+}
+body .background-players .player-division {
+  margin-bottom: 15px;
+}
+body .background-players .row {
+  max-height: 667px;
+  overflow-y: auto;
+  --scrollbarBG: #000;
+  --thumbBG: red;
 }
