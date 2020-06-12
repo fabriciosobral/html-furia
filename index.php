@@ -25,7 +25,7 @@
 <body>
     <div class="container all">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6 column-1">
                 <div class="logo">
                     <img src="imagens/logo.png" class="img-fluid">
                 </div>
@@ -44,11 +44,12 @@
                         </div>
                     </div>
                     <div class="points">
-                        <p>RESTAM: <span>5</span></p>
+                        <p>RESTAM: <span style="font-size: 10px;font-size: 34px;margin-top: 31px;position: relative;top: 4px;left: 14px;">5</span></p>
                     </div>
                 </div>
                 <div class="background-players">
-                    <div class="container row">
+                    <div class="container">
+                        <div class="row">
                         <div class="d-flex flex-row justify-content-start player-division">
                             <div class="player">
                                 <img src="../imagens/anonimo.png" alt="player">
@@ -217,6 +218,7 @@
                                 eveniet sapiente architecto.
                             </div>
                         </div>
+                        </div>      
                     </div>
                 </div>
             </div>

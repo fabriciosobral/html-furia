@@ -521,8 +521,8 @@
             <img src="imagens/anonimo.png">
         </div>
         <div class="health">
-            <div class="bar-5" style=" width:40%;">
-                <h2>40</h2>
+            <div class="bar-5">
+                <h2>80</h2>
             </div>
         </div>
     </div>

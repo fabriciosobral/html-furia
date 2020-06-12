@@ -11,6 +11,10 @@ body {
   background-attachment: fixed;
   font-family: consolas;
 }
+body .column-1 {
+  position: relative;
+  left: 25px;
+}
 body .all {
   margin-bottom: 100px;
 }
@@ -37,7 +41,7 @@ body .logo {
   position: center;
 }
 body .logo img {
-  width: 70%;
+  width: 85%;
 }
 body .line {
   display: flex;
@@ -101,7 +105,7 @@ body .points {
   background-color: #c8000a;
   border-radius: 10px;
   border: solid 2px #fff;
-  padding: 10px 40px;
+  padding: 10px 35px;
   text-align: left;
   font-weight: bold;
   color: #fff;
@@ -109,30 +113,34 @@ body .points {
   margin-top: 25px;
   margin-left: 5px;
 }
-body .background-players {
+body .points p {
+  margin-top: -14px;
+  position: relative;
+  right: 26px;
+}
+.background-players {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   margin-top: 10px;
-  margin-right: 99px;
-  padding: 25px 25px 25px 10px;
+  margin-right: 112px;
+  padding: 25px 25px 25px 25px;
 }
-body .background-players .player img {
+.background-players .player img {
   object-fit: cover;
   width: 57px;
   height: 56px;
   border: solid 2px #3ea48a;
   margin-right: 10px;
 }
-body .background-players .player-action {
+.background-players .player-action {
   color: #fff;
   font-size: 10px;
 }
-body .background-players .player-division {
+.background-players .player-division {
   margin-bottom: 15px;
 }
-body .background-players .row {
-  max-height: 667px;
-  overflow-y: auto;
-  --scrollbarBG: #000;
-  --thumbBG: red;
+.background-players .container .row {
+  max-height: 725px;
+  overflow: auto;
+  margin-right: -35px;
 }
