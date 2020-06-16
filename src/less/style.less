@@ -1,5 +1,10 @@
 @primary-color: #1e3c96;
 
+@font-face {
+    font-family: 'consolas';
+    src        : url(../../fonts/consolas.ttf);
+}
+
 body {
     background-image     : url(../../imagens/bg.png);
     background-repeat    : no-repeat;
@@ -7,8 +12,23 @@ body {
     background-position  : left center;
     height               : 100%;
     background-attachment: fixed;
+    font-family          : consolas;
 
-    p {
+
+    .all {
+        margin-bottom: 20px;
+    }
+
+    .bar-5 {
+        width           : 80%;
+        height          : 13px;
+        background-color: red;
+    }
+
+    p,
+    h1,
+    h2,
+    h3 {
         margin : 0;
         padding: 0;
         border : 0;
@@ -17,17 +37,78 @@ body {
     .test {
         height: 40px;
     }
-    .group{
-        margin-top: 40px;
+
+    .group {
+        margin-top    : 20px;
+        flex-direction: column;
+        align-items   : center;
     }
 
     .logo {
+        text-align: center;
+
         img {
-            width      : 80%;
+            width: 85%;
         }
     }
 
+    .players-box {
+        overflow-x: auto;
+
+        .line {
+            display       : flex;
+            flex-direction: row;
+            margin-bottom : 5px;
+
+
+            .player-score {
+                width           : 65px;
+                margin-right    : 2px;
+                background-color: black;
+
+                .container-bar {
+                    background-color: black;
+                }
+
+                h1 {
+                    text-align      : center;
+                    width           : 65px;
+                    height          : 13px;
+                    font-size       : 12px;
+                    color           : #fff;
+                    background-color: black;
+                }
+
+                h2 {
+                    text-align: center;
+                    width     : 65px;
+                    height    : 13px;
+                    font-size : 12px;
+                    color     : #fff;
+                }
+
+                .all-player {
+                    img {
+                        width : 65px;
+                        height: 65px;
+                    }
+                }
+
+                .health {
+                    width : 65px;
+                    height: 13px;
+                }
+            }
+        }
+    }
+
+
+
     .reward {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+
         .premium {
             background-color: #1e3c96;
             border-radius   : 10px;
@@ -39,7 +120,6 @@ body {
             position        : relative;
             top             : 9px;
             font-size       : 11px;
-            left            : 80px;
         }
 
         .gift {
@@ -50,6 +130,7 @@ body {
             text-align      : center;
             font-weight     : bold;
             color           : #000;
+            width           : 90vw;
         }
     }
 
@@ -57,20 +138,152 @@ body {
         background-color: #c8000a;
         border-radius   : 10px;
         border          : solid 2px #fff;
-        padding         : 10px 40px;
+        padding         : 10px 35px;
         text-align      : center;
         font-weight     : bold;
         color           : #fff;
         max-height      : 49px;
         margin-top      : 25px;
         margin-left     : 5px;
-    }
-    .background-players{
-        background-color: #000;
-        border-radius: 5px;
-        margin-top: 10px;
-        margin-right: 99px;
-    }
-        
+        margin-right    : 5px;
+        width           : 100%;
 
+        p {
+            margin-top: -14px;
+            position  : relative;
+            right     : 0px;
+            left      : -2px;
+
+            span {
+                font-size : 10px;
+                font-size : 34px;
+                margin-top: 31px;
+                position  : relative;
+                top       : 4px;
+            }
+        }
+    }
+}
+
+
+.background-players {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius   : 5px;
+    margin-top      : 10px;
+    margin-right    : 0px;
+    padding         : 20px 25px 13px 5px;
+
+    .versus {
+        display       : flex;
+        flex-direction: column;
+
+
+    }
+
+    .player {
+        img {
+            object-fit  : cover;
+            width       : 57px;
+            height      : 56px;
+            border      : solid 2px #3ea48a;
+            margin-right: 10px;
+        }
+    }
+
+    .player-action {
+        color      : #fff;
+        font-size  : 10px;
+        align-items: center;
+        display    : flex;
+    }
+
+    .player-division {
+        margin-bottom: 15px;
+    }
+
+    .container {
+        .row {
+            max-height: 725px;
+            overflow  : auto;
+
+        }
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    body {
+        .column-1 {
+            position: relative;
+            left    : 25px;
+        }
+
+        .points {
+
+            p {
+                right: 26px;
+
+                span {
+                    left: 14px;
+                }
+            }
+        }
+
+        .background-players {
+
+            .versus {
+                flex-direction: row;
+            }
+
+            .container {
+                .row {
+                    max-height: 562px;
+                }
+            }
+        }
+
+        .reward {
+
+            .gift {
+                width: inherit;
+            }
+        }
+
+        .points {
+            width           : inherit;
+        }
+
+    }
+
+}
+
+@media (min-width: 1024px) {
+    body {
+        .group {
+            flex-direction : row;
+            justify-content: center;
+        }
+
+        .background-players {
+            .container {
+                .row {
+                    max-height: 709px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+
+        .background-players {
+            .container {
+                .row {
+                    max-height: 761px;
+                }
+            }
+        }
+    }
 }
