@@ -14,8 +14,7 @@
 
     <link rel="stylesheet" href="./dist/font-awesome.min.css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./css/style.css">
 
@@ -29,8 +28,8 @@
                 <div class="logo">
                     <img src="imagens/logo.png" class="img-fluid">
                 </div>
-                <div>
-                    <?php include 'line.php';?>
+                <div class="players-box">
+                    <?php include 'line.php'; ?>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -44,181 +43,240 @@
                         </div>
                     </div>
                     <div class="points">
-                        <p>RESTAM: <span style="font-size: 10px;font-size: 34px;margin-top: 31px;position: relative;top: 4px;left: 14px;">5</span></p>
+                        <p>RESTAM: <span>5</span></p>
                     </div>
                 </div>
                 <div class="background-players">
                     <div class="container">
                         <div class="row">
-                        <div class="d-flex flex-row justify-content-start player-division">
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player-action">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                eveniet sapiente architecto.
+                            <div class="col-12">
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../imagens/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="d-flex flex-row justify-content-start player-division">
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player-action">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                eveniet sapiente architecto.
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start player-division">
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player-action">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                eveniet sapiente architecto.
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start player-division">
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player-action">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                eveniet sapiente architecto.
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start player-division">
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player-action">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                eveniet sapiente architecto.
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start player-division">
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player-action">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                eveniet sapiente architecto.
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start player-division">
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player-action">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                eveniet sapiente architecto.
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start player-division">
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player-action">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                eveniet sapiente architecto.
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start player-division">
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player-action">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                eveniet sapiente architecto.
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start player-division">
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player-action">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                eveniet sapiente architecto.
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start player-division">
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player-action">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                eveniet sapiente architecto.
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start player-division">
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player-action">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                eveniet sapiente architecto.
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start player-division">
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player-action">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                eveniet sapiente architecto.
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start player-division">
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player-action">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                eveniet sapiente architecto.
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start player-division">
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player-action">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                eveniet sapiente architecto.
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start player-division">
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player">
-                                <img src="../imagens/anonimo.png" alt="player">
-                            </div>
-                            <div class="player-action">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                eveniet sapiente architecto.
-                            </div>
-                        </div>
-                        </div>      
                     </div>
                 </div>
             </div>
