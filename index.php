@@ -24,7 +24,7 @@
 <body>
     <div class="container all">
         <div class="row">
-            <div class="col-sm-6 column-1">
+            <div class="col-sm-6">
                 <div class="logo">
                     <img src="imagens/logo.png" class="img-fluid">
                 </div>
