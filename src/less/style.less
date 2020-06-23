@@ -5,6 +5,27 @@
     src        : url(../../fonts/consolas.ttf);
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: blue; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: red; 
+  }
+
+
 body {
     background-image     : url(../../imagens/bg.png);
     background-repeat    : no-repeat;
@@ -214,10 +235,6 @@ body {
 
 @media (min-width: 768px) {
     body {
-        .column-1 {
-            position: relative;
-            left    : 25px;
-        }
 
         .points {
 
