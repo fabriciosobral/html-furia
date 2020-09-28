@@ -1,3 +1,5 @@
+@import 'forms.less';
+
 @primary-color: #1e3c96;
 
 @font-face {
@@ -35,6 +37,35 @@ body {
     background-attachment: fixed;
     font-family          : consolas;
 
+    &.profile{
+        background-image     : url(../../imagens/bg-perfil.png);
+        background-position  : top center;
+        .navbar-expand-lg .navbar-collapse {
+            justify-content: flex-end;
+            background-color: black;
+
+            .navbar-nav{
+                padding-right: 15px;
+                .nav-item{
+                    .dropdown-menu {
+                    }
+                }
+            }
+        }
+
+        .navbar-expand-lg .navbar-nav .dropdown-menu {
+            text-align: right;
+            left: -80px;
+            background-color:rgba(0, 0, 0, .8);
+            .dropdown-item{
+                color: #fff;
+                &:hover{
+                    background-color: transparent;
+                    color: yellow;
+                }
+            }
+        }
+    }
 
     .all {
         margin-bottom: 20px;
@@ -46,6 +77,18 @@ body {
         background-color: red;
     }
 
+    p, a{
+        color: #fff;    
+    }
+
+    a:hover{
+        color: yellow;
+    }
+    h1{
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
     p,
     h1,
     h2,
@@ -53,7 +96,9 @@ body {
         margin : 0;
         padding: 0;
         border : 0;
+        color: #fff;    
     }
+
 
     .test {
         height: 40px;
@@ -71,6 +116,11 @@ body {
         img {
             width: 85%;
         }
+    }
+
+    .bt-form{
+        min-width: 280px;
+        max-width: 280px;
     }
 
     .players-box {
@@ -186,6 +236,25 @@ body {
     }
 }
 
+.pic-perfil{
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    .img-pic-perfil{
+            border: solid yellow 1px;
+            border-radius: 200px;
+            width: 320px;
+            height: 320px;
+            padding: 20px;
+        img{
+            border-radius: 200px;
+            width: 280px;
+            height: 280px;
+            object-fit: cover;
+            box-shadow: 0px 0px 20px 0px rgba(255,204,0,.8);
+        }
+    }
+}
 
 .background-players {
     background-color: rgba(0, 0, 0, 0.5);

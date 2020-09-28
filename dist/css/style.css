@@ -1,0 +1,315 @@
+body .login .logo {
+  justify-items: center;
+  align-items: center;
+}
+body .login .logo img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  body .login .logo img {
+    width: 50%;
+  }
+}
+input.input-default {
+  background-color: #c8a505;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-style: italic;
+  width: 280px;
+}
+input.input-full {
+  background-color: #c8a505;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-style: italic;
+  width: 100%;
+}
+button.bt-default {
+  border: 2px solid #c8a505;
+  border-radius: 10px;
+  padding: 10px 60px;
+  margin-bottom: 15px;
+  background-color: rgba(76, 67, 54, 0.7);
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+@font-face {
+  font-family: 'consolas';
+  src: url(../../fonts/consolas.ttf);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blue;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
+body {
+  background-image: url(../../imagens/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  height: 100%;
+  background-attachment: fixed;
+  font-family: consolas;
+}
+body.profile {
+  background-image: url(../../imagens/bg-perfil.png);
+  background-position: top center;
+}
+body.profile .navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+  background-color: black;
+}
+body.profile .navbar-expand-lg .navbar-collapse .navbar-nav {
+  padding-right: 15px;
+}
+body.profile .navbar-expand-lg .navbar-nav .dropdown-menu {
+  text-align: right;
+  left: -80px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+body.profile .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+  color: #fff;
+}
+body.profile .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover {
+  background-color: transparent;
+  color: yellow;
+}
+body .all {
+  margin-bottom: 20px;
+}
+body .bar-5 {
+  width: 80%;
+  height: 13px;
+  background-color: red;
+}
+body p,
+body a {
+  color: #fff;
+}
+body a:hover {
+  color: yellow;
+}
+body h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+body p,
+body h1,
+body h2,
+body h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #fff;
+}
+body .test {
+  height: 40px;
+}
+body .group {
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+body .logo {
+  text-align: center;
+}
+body .logo img {
+  width: 85%;
+}
+body .bt-form {
+  min-width: 280px;
+  max-width: 280px;
+}
+body .players-box {
+  overflow-x: auto;
+}
+body .players-box .line {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+body .players-box .line .player-score {
+  width: 65px;
+  margin-right: 2px;
+  background-color: black;
+}
+body .players-box .line .player-score .container-bar {
+  background-color: black;
+}
+body .players-box .line .player-score h1 {
+  text-align: center;
+  width: 65px;
+  height: 13px;
+  font-size: 12px;
+  color: #fff;
+  background-color: black;
+}
+body .players-box .line .player-score h2 {
+  text-align: center;
+  width: 65px;
+  height: 13px;
+  font-size: 12px;
+  color: #fff;
+}
+body .players-box .line .player-score .all-player img {
+  width: 65px;
+  height: 65px;
+}
+body .players-box .line .player-score .health {
+  width: 65px;
+  height: 13px;
+}
+body .reward {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .reward .premium {
+  background-color: #1e3c96;
+  border-radius: 10px;
+  padding: 5px 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #FFF;
+  width: 100px;
+  position: relative;
+  top: 9px;
+  font-size: 11px;
+}
+body .reward .gift {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: solid 2px #1e3c96;
+  padding: 10px 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  width: 90vw;
+}
+body .points {
+  background-color: #c8000a;
+  border-radius: 10px;
+  border: solid 2px #fff;
+  padding: 10px 35px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  max-height: 49px;
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100%;
+}
+body .points p {
+  margin-top: -14px;
+  position: relative;
+  right: 0px;
+  left: -2px;
+}
+body .points p span {
+  font-size: 10px;
+  font-size: 34px;
+  margin-top: 31px;
+  position: relative;
+  top: 4px;
+}
+.pic-perfil {
+  display: flex;
+  justify-content: center;
+  margin-top: 160px;
+}
+.pic-perfil .img-pic-perfil {
+  border: solid yellow 1px;
+  border-radius: 200px;
+  width: 320px;
+  height: 320px;
+  padding: 20px;
+}
+.pic-perfil .img-pic-perfil img {
+  border-radius: 200px;
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  box-shadow: 0px 0px 20px 0px rgba(255, 204, 0, 0.8);
+}
+.background-players {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 0px;
+  padding: 20px 25px 13px 5px;
+}
+.background-players .versus {
+  display: flex;
+  flex-direction: column;
+}
+.background-players .player img {
+  object-fit: cover;
+  width: 57px;
+  height: 56px;
+  border: solid 2px #3ea48a;
+  margin-right: 10px;
+}
+.background-players .player-action {
+  color: #fff;
+  font-size: 10px;
+  align-items: center;
+  display: flex;
+}
+.background-players .player-division {
+  margin-bottom: 15px;
+}
+.background-players .container .row {
+  max-height: 725px;
+  overflow: auto;
+}
+@media (min-width: 768px) {
+  body .points p {
+    right: 26px;
+  }
+  body .points p span {
+    left: 14px;
+  }
+  body .background-players .versus {
+    flex-direction: row;
+  }
+  body .background-players .container .row {
+    max-height: 562px;
+  }
+  body .reward .gift {
+    width: inherit;
+  }
+  body .points {
+    width: inherit;
+  }
+}
+@media (min-width: 1024px) {
+  body .group {
+    flex-direction: row;
+    justify-content: center;
+  }
+  body .background-players .container .row {
+    max-height: 709px;
+  }
+}
+@media (min-width: 1024px) {
+  body .background-players .container .row {
+    max-height: 761px;
+  }
+}
