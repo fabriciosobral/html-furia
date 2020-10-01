@@ -72,6 +72,11 @@ a.bt-default {
 ::-webkit-scrollbar-thumb:hover {
   background: red;
 }
+.menu-top {
+  position: fixed;
+  z-index: 80;
+  background: black;
+}
 body {
   background-image: url(../../imagens/bg.png);
   background-repeat: no-repeat;
