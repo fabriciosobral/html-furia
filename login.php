@@ -23,39 +23,83 @@
 </head>
 
 <body>
-    <div class="container all login">
-        <div class="row">
-            <div class="col-12">
-                <div class="logo">
-                    <img src="imagens/logo.png" class="img-fluid logofuria">
+<div id="app">
+        <nav class="navbar navbar-expand-lg navbar-custom-furia">
+            <div class="container">
+                <a class="navbar-brand" href="{{ url('/') }}">
+                    Fúria Jungle
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Left Side Of Navbar -->
+                    <ul class="navbar-nav mr-auto">
+
+                    </ul>
+                    <!-- Right Side Of Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Authentication Links -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">Login</a>
+                            </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('register') }}">Registrar-se</a>
+                                </li>
+                            </ul>
                 </div>
             </div>
-            <div class="col-12">
-                <div class="logo d-flex flex-column">
-                    <input type="text" class="input-default" id="user" value="Email" autocomplete="off">
-                    <input type="password" class="input-default" id="pass" value="Senha" autocomplete="new-password">
-                    <div class="form-group row">
-                        <div class="col-md-6 offset-md-4">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+        </nav>
+        <main role="main" class="container">
+            <div class="container-fluid">
 
-                                <label class="form-check-label" for="remember">
-                                    Lembrar
-                                </label>
+
+
+                <!-- 
+                Aqui é o miolo Zabra, só muda isso de página pra página
+                Veja como tem container repetido e tal... 
+                Bom isso que agora tu tem noção de como é o html da app real
+                -->
+                <div class="container all login">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="logo">
+                                <img src="imagens/logo.png" class="img-fluid logofuria">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="logo d-flex flex-column">
+                                <input type="text" class="input-default" id="user" value="Email" autocomplete="off">
+                                <input type="password" class="input-default" id="pass" value="Senha" autocomplete="new-password">
+                                <div class="form-group row">
+                                    <div class="col-md-6 offset-md-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+
+                                            <label class="form-check-label" for="remember">
+                                                Lembrar
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="bt-default">Login</button>
+                                <a class="btn btn-link" href="{{ route('password.request') }}">
+                                    Esqueceu sua senha?
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="logo-selo text-center">
+                                <img src="imagens/furia-selo.png" class="img-fluid logofuria">
                             </div>
                         </div>
                     </div>
-                    <button class="bt-default">Login</button>
-                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                        Esqueceu sua senha?
-                    </a>
                 </div>
+                <!-- Fim do miolo -->
+
+
+
             </div>
-            <div class="col-12">
-                <div class="logo-selo text-center">
-                    <img src="imagens/furia-selo.png" class="img-fluid logofuria">
-                </div>
-            </div>
-        </div>
-    </div>
+
+    </main><!-- /.container -->
 </body>
