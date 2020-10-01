@@ -25,18 +25,15 @@
                           
     <div class="container">
             <nav class="navbar navbar-expand-lg navbar-custom-furia">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                    <li class="nav-item active">
+                <div >
+                    <ul class="navbar-nav flex-row">
+                    <li class="nav-item active mr-3">
                         <a class="nav-link" href="#">JUNGLE <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mr-3">
                         <a class="nav-link" href="#">RANKING</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown mr-3">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         FULANO
                         </a>
@@ -52,11 +49,26 @@
     </div>                     
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <div class="pic-perfil">
-                    <div class="img-pic-perfil">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="pic-perfil d-flex flex-column align-items-center">
+                    <div class="img-pic-perfil mb-4 d-flex flex-column flex-sm-row">
                         <img src="./imagens/perfil-pic.png" alt="">
+                        <div class="life">
+                            <h1>Saldo</h1>
+                            <p>1283</p>
+                            <div class="charge">Recarga</div>
+                        </div>
                     </div>
+                    <h1 class="custom">Olá, Fulano</h1>
+                    <div class="status">Você tem <span class="point">17</span> vitórias em <span class="points">78 jogos</span>.</div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="box-points">
+                    <h1>25% vitórias em na sala de <span>25 centavos</span></h1>
+                    <h1>25% vitórias em na sala de <span>25 centavos</span></h1>
+                    <h1>25% vitórias em na sala de <span>25 centavos</span></h1>
+                    <h1>25% vitórias em na sala de <span>25 centavos</span></h1>
                 </div>
             </div>
         </div>

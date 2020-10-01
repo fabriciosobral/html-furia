@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
 
     <!-- <link rel="stylesheet" href="./dist/font-awesome.min.css"> -->
     <!-- Bootstrap CSS -->
@@ -25,27 +26,11 @@
     <div class="container all login">
         <div class="row">
             <div class="col-12">
-                <div class="logo">
-                    <img src="imagens/logo.png" class="img-fluid logofuria">
-                </div>
-            </div>
-
-        </div>
-        <div class="row mb-3">
-            <div class="col-12 text-center">
-                <button class="bt-default bt-form" onclick="location.href='#'">Login</button>
-            </div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-12 text-center">
-                <button class="bt-default bt-form" onclick="location.href='#'">Cadastre-se</button>
-            </div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-12">
-                <div class="logo-selo text-center">
-                    <img src="imagens/furia-selo.png" class="img-fluid logofuria">
-                </div>
+             <h1>Texto</h1>
+             <h2>Texto</h2>
+             <h3>Texto</h3>
+             <h4>Texto</h4>
+             <h5>Texto</h5>
             </div>
         </div>
     </div>

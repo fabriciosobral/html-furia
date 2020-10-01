@@ -11,7 +11,7 @@ body .login .logo img {
   }
 }
 input.input-default {
-  background-color: #c8a505;
+  background-color: #c8a505 !important;
   border: none;
   border-radius: 10px;
   padding: 10px;
@@ -19,8 +19,10 @@ input.input-default {
   font-style: italic;
   width: 280px;
 }
-input.input-full {
-  background-color: #c8a505;
+input.input-full,
+select.input-full,
+input.input-full[type=password] {
+  background-color: #c8a505 !important;
   border: none;
   border-radius: 10px;
   padding: 10px;
@@ -37,6 +39,18 @@ button.bt-default {
   font-size: 20px;
   color: #fff;
   text-transform: uppercase;
+}
+a.bt-default {
+  border: 2px solid #c8a505;
+  border-radius: 10px;
+  padding: 10px 60px;
+  margin-bottom: 15px;
+  background-color: rgba(76, 67, 54, 0.7);
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  min-width: 280px;
+  max-width: 280px;
 }
 @font-face {
   font-family: 'consolas';
@@ -67,6 +81,21 @@ body {
   background-attachment: fixed;
   font-family: consolas;
 }
+body label {
+  color: #fff;
+  font-style: italic;
+}
+body h1.custom {
+  color: #c8a505;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 220px;
+}
+@media (min-width: 768px) {
+  body h1.custom {
+    margin-top: initial;
+  }
+}
 body.profile {
   background-image: url(../../imagens/bg-perfil.png);
   background-position: top center;
@@ -77,6 +106,9 @@ body.profile .navbar-expand-lg .navbar-collapse {
 }
 body.profile .navbar-expand-lg .navbar-collapse .navbar-nav {
   padding-right: 15px;
+}
+body.profile .dropdown-menu {
+  position: absolute!important;
 }
 body.profile .navbar-expand-lg .navbar-nav .dropdown-menu {
   text-align: right;
@@ -89,6 +121,10 @@ body.profile .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
 body.profile .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover {
   background-color: transparent;
   color: yellow;
+}
+body.profile .navbar {
+  justify-content: flex-end;
+  margin-top: -8px;
 }
 body .all {
   margin-bottom: 20px;
@@ -247,6 +283,79 @@ body .points p span {
   height: 280px;
   object-fit: cover;
   box-shadow: 0px 0px 20px 0px rgba(255, 204, 0, 0.8);
+}
+.life {
+  margin-left: 0;
+  margin-top: 50px;
+  text-align: center;
+}
+.life .charge {
+  background-color: #c8000a;
+  line-height: 10px;
+  padding: 10px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+.life h1 {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 700;
+}
+.life p {
+  color: #c8a505;
+  font-size: 40px;
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  .life {
+    margin-left: 50px;
+    margin-top: 90px;
+  }
+}
+.box-points {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 15px 20px 20px 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.box-points h1 {
+  font-size: 22px;
+  line-height: 40px;
+}
+.box-points h1 span {
+  background-color: #c8000a;
+  line-height: 10px;
+  padding: 10px 10px 0px 10px;
+}
+@media (min-width: 768px) {
+  .box-points {
+    padding: 45px 20px 20px 20px;
+  }
+  .box-points h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+}
+.status {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+}
+.status .point {
+  background-color: #c8a505;
+  border-radius: initial;
+  color: #000;
+  padding: 5px 18px 0px 18px;
+}
+.status .points {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  color: #c8a505 !important;
 }
 .background-players {
   background-color: rgba(0, 0, 0, 0.5);

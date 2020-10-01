@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
 
     <!-- <link rel="stylesheet" href="./dist/font-awesome.min.css"> -->
     <!-- Bootstrap CSS -->
@@ -31,8 +32,8 @@
             </div>
             <div class="col-12">
                 <div class="logo d-flex flex-column">
-                    <input type="text" class="input-default" value="Email">
-                    <input type="text" class="input-default" value="Senha">
+                    <input type="text" class="input-default" id="user" value="Email" autocomplete="off">
+                    <input type="password" class="input-default" id="pass" value="Senha" autocomplete="new-password">
                     <button class="bt-default">Login</button>
                 </div>
             </div>

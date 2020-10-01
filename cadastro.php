@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
 
     <!-- <link rel="stylesheet" href="./dist/font-awesome.min.css"> -->
     <!-- Bootstrap CSS -->
@@ -31,75 +32,89 @@
             </div>
 
         </div>
-        <div class="row mb-3">
-            <div class="col-sm-4">
-                <div class="logo d-flex flex-column">
-                    <input type="text" class="input-full" value="Nome">
+        <form>
+            <div class="row mb-3">
+                <div class="col-sm-4">
+                    <div class="d-flex flex-column">
+                        <label>Nome</label>
+                        <input type="text" class="input-full">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="d-flex flex-column">
+                        <label>Email</label>
+                        <input type="text" class="input-full email">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="d-flex flex-column">
+                        <label>Data de Nascimento</label>
+                        <input type="text" class="input-full date">
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="logo d-flex flex-column">
-                    <input type="text" class="input-full" value="Email">
+            <div class="row mb-3">
+                <div class="col-sm-3">
+                    <div class="d-flex flex-column">
+                        <label>Endereço</label>
+                        <input type="text" class="input-full">
+                    </div>
+                </div>
+                <div class="col-sm-1">
+                    <div class="d-flex flex-column">
+                        <label>N.º</label>
+                        <input type="text" class="input-full">
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="d-flex flex-column">
+                        <label>Cidade</label>
+                        <input type="text" class="input-full">
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="d-flex flex-column">
+                        <label>Estado</label>
+                        <select class="input-full">
+                            <option value="- -"></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="d-flex flex-column">
+                        <label>Complemento</label>
+                        <input type="text" class="input-full">
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="logo d-flex flex-column">
-                    <input type="text" class="input-full" value="Data de nascimento">
+            <div class="row mb-3">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <div class="d-flex flex-column">
+                        <label>Senha</label>
+                        <input type="text" class="input-full">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="d-flex flex-column">
+                        <label>Confirmar Senha</label>
+                        <input type="text" class="input-full">
+                    </div>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 text-center">
+                    <button class="bt-default">Cadastrar</button>
                 </div>
             </div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-sm-3">
-                <div class="logo d-flex flex-column">
-                    <input type="text" class="input-full" value="Data de nascimento">
+            <div class="row mb-3">
+                <div class="col-12">
+                    <div class="logo-selo text-center">
+                        <img src="imagens/furia-selo.png" class="img-fluid logofuria">
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-1">
-                <div class="logo d-flex flex-column">
-                    <input type="text" class="input-full" value="Data de nascimento">
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="logo d-flex flex-column">
-                    <input type="text" class="input-full" value="Data de nascimento">
-                </div>
-            </div>
-            <div class="col-sm-2">
-                <div class="logo d-flex flex-column">
-                    <input type="text" class="input-full" value="Data de nascimento">
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="logo d-flex flex-column">
-                    <input type="text" class="input-full" value="Data de nascimento">
-                </div>
-            </div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-4">
-                 <div class="logo d-flex flex-column">
-                    <input type="text" class="input-full" value="Data de nascimento">
-                </div>
-            </div>
-            <div class="col-sm-4">
-                 <div class="logo d-flex flex-column">
-                    <input type="text" class="input-full" value="Data de nascimento">
-                </div>
-            </div>
-            <div class="col-sm-2"></div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-12 text-center">
-                <button class="bt-default">Cadastrar</button>
-            </div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-12">
-                <div class="logo-selo text-center">
-                    <img src="imagens/furia-selo.png" class="img-fluid logofuria">
-                </div>
-            </div>
-        </div>
+        </form>
     </div>
 </body>
