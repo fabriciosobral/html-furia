@@ -73,7 +73,7 @@
                             </div>
  
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
@@ -106,7 +106,7 @@
                 <table class="table">
                     <thead>
                         <tr>
-                        <th scope="col" style="width: 60%">Name</th>
+                        <th scope="col" style="width: 40%">Name</th>
                         <th scope="col" style="width: 20%">Email</th>
                         <th scope="col" style="width: 20%">Is Admin</th>
                         <th scope="col" style="width: 20%"></th>
@@ -121,6 +121,14 @@
                                 <div class="col-sm-6">
                                     <a href="{{route('users.edit', $user->id)}}"  class="btn btn-primary">Edit</a>
                                 </div>
+                                <div class="col-sm-6">
+                                    <div class="text-right">
+                                        <form method="POST" action="http://localhost:8000/Admin/events/1" accept-charset="UTF-8" onsubmit="return confirm(&#039;Delete event?&#039;);"><input name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden" value="aeYlRQJYvr2hqXv3B2fQEEf8WsOBJa6M8WjC6pg2">
+                                            <input type="hidden" name="_token" value="aeYlRQJYvr2hqXv3B2fQEEf8WsOBJa6M8WjC6pg2">                                <input class="btn btn-danger" type="submit" value="Delete">
+                                        </form>
+                                        </form>
+                                    </div>
+                                </div>
                             </td>
                         </tr>
                         <tr>
@@ -131,6 +139,14 @@
                                 <div class="col-sm-6">
                                     <a href="{{route('users.edit', $user->id)}}"  class="btn btn-primary">Edit</a>
                                 </div>
+                                <div class="col-sm-6">
+                                    <div class="text-right">
+                                        <form method="POST" action="http://localhost:8000/Admin/events/1" accept-charset="UTF-8" onsubmit="return confirm(&#039;Delete event?&#039;);"><input name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden" value="aeYlRQJYvr2hqXv3B2fQEEf8WsOBJa6M8WjC6pg2">
+                                            <input type="hidden" name="_token" value="aeYlRQJYvr2hqXv3B2fQEEf8WsOBJa6M8WjC6pg2">                                <input class="btn btn-danger" type="submit" value="Delete">
+                                        </form>
+                                        </form>
+                                    </div>
+                                </div>
                             </td>
                         </tr>
                         <tr>
@@ -140,6 +156,14 @@
                             <td class="row">
                                 <div class="col-sm-6">
                                     <a href="{{route('users.edit', $user->id)}}"  class="btn btn-primary">Edit</a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="text-right">
+                                        <form method="POST" action="http://localhost:8000/Admin/events/1" accept-charset="UTF-8" onsubmit="return confirm(&#039;Delete event?&#039;);"><input name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden" value="aeYlRQJYvr2hqXv3B2fQEEf8WsOBJa6M8WjC6pg2">
+                                            <input type="hidden" name="_token" value="aeYlRQJYvr2hqXv3B2fQEEf8WsOBJa6M8WjC6pg2">                                <input class="btn btn-danger" type="submit" value="Delete">
+                                        </form>
+                                        </form>
+                                    </div>
                                 </div>
                             </td>
                         </tr>
