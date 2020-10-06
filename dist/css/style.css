@@ -72,6 +72,37 @@ a.bt-default {
 ::-webkit-scrollbar-thumb:hover {
   background: red;
 }
+.navbar-custom-furia {
+  background-color: #000;
+}
+.user-page .pagination .page-item {
+  margin: 0 5px !important;
+}
+.user-page .pagination .page-item.active {
+  background-color: #c8a505;
+  border: transparent;
+  border-radius: 4px;
+}
+.user-page .pagination .page-item:hover {
+  background-color: #c8a505;
+  border: transparent;
+  border-radius: 4px;
+}
+.user-page .pagination .page-item .page-link {
+  background-color: transparent;
+  border: transparent;
+  color: #fff;
+}
+.btn-link {
+  font-weight: 400;
+  color: #c8a505;
+  text-decoration: none;
+}
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:visited {
+  color: #c8a505;
+}
 .menu-top {
   position: fixed;
   z-index: 80;

@@ -1,6 +1,7 @@
 @import 'forms.less';
 
 @primary-color: #1e3c96;
+@secundary-color:#c8a505;
 
 @font-face {
     font-family: 'consolas';
@@ -26,7 +27,41 @@
   ::-webkit-scrollbar-thumb:hover {
     background: red; 
   }
+.navbar-custom-furia{
+    background-color: #000;
+}
 
+.user-page{
+    .pagination{
+        .page-item{
+            margin: 0 5px !important;
+            &.active{
+                background-color: @secundary-color;
+                border: transparent;
+                border-radius: 4px;
+            }
+            &:hover{
+                background-color: @secundary-color;
+                border: transparent;
+                border-radius: 4px;
+            }
+            .page-link{
+                background-color: transparent;
+                border: transparent;
+                color: #fff;
+            }
+        } 
+    }
+}
+
+.btn-link {
+    font-weight: 400;
+    color: @secundary-color;
+    text-decoration: none;
+    &:hover, &:focus, &:visited{
+        color: @secundary-color;
+    }
+}
 .menu-top{
     position: fixed;
     z-index: 80;

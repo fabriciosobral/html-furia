@@ -79,17 +79,8 @@
             </div>
         </nav>
         <main role="main" class="container">
-            <div class="container-fluid">
-
-
-
-                <!-- 
-                Aqui é o miolo Zabra, só muda isso de página pra página
-                Veja como tem container repetido e tal... 
-                Bom isso que agora tu tem noção de como é o html da app real
-                -->
-                <h1>Users</h1>
-
+            <div class="container-fluid user-page">
+                <h1 class="custom text-left mt-5">Users</h1>
                 <ul class="pagination">
             
                     <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Anterior">

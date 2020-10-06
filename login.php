@@ -72,7 +72,7 @@
                                 <input type="text" class="input-default" id="user" value="Email" autocomplete="off">
                                 <input type="password" class="input-default" id="pass" value="Senha" autocomplete="new-password">
                                 <div class="form-group row">
-                                    <div class="col-md-6 offset-md-4">
+                                    <div class="col-md-6 text-center">
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
