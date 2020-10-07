@@ -75,6 +75,23 @@ a.bt-default {
 .navbar-custom-furia {
   background-color: #000;
 }
+.user-page {
+  padding: 20px;
+  margin-top: 70px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.user-page table thead {
+  background-color: #f8f9fa;
+}
+.user-page table thead th {
+  border: none;
+}
+.user-page table tbody td {
+  border: none;
+}
+.user-page table tbody tr {
+  border-bottom: 1px solid #fff;
+}
 .user-page .pagination .page-item {
   margin: 0 5px !important;
 }

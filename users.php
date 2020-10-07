@@ -80,7 +80,7 @@
         </nav>
         <main role="main" class="container">
             <div class="container-fluid user-page">
-                <h1 class="custom text-left mt-5">Users</h1>
+                <h1 class="custom text-left">Users</h1>
                 <ul class="pagination">
             
                     <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Anterior">
