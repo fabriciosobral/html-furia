@@ -52,7 +52,7 @@
             <div class="col-12 d-flex justify-content-center">
                 <div class="pic-perfil d-flex flex-column align-items-center">
                     <div class="img-pic-perfil mb-4 d-flex flex-column flex-sm-row">
-                        <img src="./imagens/perfil-pic.png" alt="">
+                        <img src="./imagens/anonimo-profile.png" alt="">
                         <div class="life">
                             <h1>Saldo</h1>
                             <p>1283</p>
