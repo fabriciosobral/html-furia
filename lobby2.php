@@ -65,7 +65,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="box-points">
+                            <tr class="box-points lobby">
                                 <td>
                                     <div class="room">
                                         <span>#001</span>
@@ -82,7 +82,7 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <button class="enter-room">Entrar</button>
+                                    <button class="enter-room">Entrar >>></button>
                                 </td>
                             </tr>
                             <tr class="box-points">
@@ -102,7 +102,7 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <button class="enter-room full">Entrar</button>
+                                    <button class="enter-room full">Entrar >>></button>
                                 </td>
                             </tr>
                         </tbody>
