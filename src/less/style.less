@@ -1,4 +1,7 @@
+@import 'forms.less';
+
 @primary-color: #1e3c96;
+@secundary-color:#c8a505;
 
 @font-face {
     font-family: 'consolas';
@@ -24,8 +27,83 @@
   ::-webkit-scrollbar-thumb:hover {
     background: red; 
   }
+.navbar-custom-furia{
+    background-color: #000;
+}
 
 
+table{
+    &.custom{
+        border-collapse:separate; 
+        border-spacing: 0 1em;
+
+        td{
+            border: none;
+            min-height: 30px;
+            div{
+                min-height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+.user-page{
+    padding: 20px;
+    margin-top: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    table{
+        thead{
+            background-color: #f8f9fa;
+            th{
+                border: none;
+            }
+        }
+        tbody{
+            td{
+                border: none;
+            }
+            tr{
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+    .pagination{
+        .page-item{
+            margin: 0 5px !important;
+            &.active{
+                background-color: @secundary-color;
+                border: transparent;
+                border-radius: 4px;
+            }
+            &:hover{
+                background-color: @secundary-color;
+                border: transparent;
+                border-radius: 4px;
+            }
+            .page-link{
+                background-color: transparent;
+                border: transparent;
+                color: #fff;
+            }
+        } 
+    }
+}
+
+.btn-link {
+    font-weight: 400;
+    color: @secundary-color;
+    text-decoration: none;
+    &:hover, &:focus, &:visited{
+        color: @secundary-color;
+    }
+}
+.menu-top{
+    position: fixed;
+    z-index: 80;
+    background: black;
+}
 body {
     background-image     : url(../../imagens/bg.png);
     background-repeat    : no-repeat;
@@ -35,6 +113,62 @@ body {
     background-attachment: fixed;
     font-family          : consolas;
 
+    label{
+        color: #fff;
+        font-style: italic;
+    }
+
+    h1.custom{
+        color: #c8a505;
+        font-size: 70px;
+        text-align: center;
+        margin-top: 220px;
+
+        @media(min-width: 768px){
+            margin-top: initial;
+        }
+
+        &.format-text{
+            font-style: italic;
+        }
+    }
+
+    &.profile{
+        background-image     : url(../../imagens/bg-perfil.png);
+        background-position  : top center;
+        .navbar-expand-lg .navbar-collapse {
+            justify-content: flex-end;
+            background-color: black;
+
+            .navbar-nav{
+                padding-right: 15px;
+
+                .nav-item{
+                    
+                }
+            }
+        }
+        .dropdown-menu {
+            position: absolute!important;
+        }
+        .navbar-expand-lg .navbar-nav .dropdown-menu {
+            text-align: right;
+            left: -80px;
+            background-color:rgba(0, 0, 0, .8);
+            .dropdown-item{
+                color: #fff;
+                &:hover{
+                    background-color: transparent;
+                    color: yellow;
+                }
+            }
+        }
+
+        .navbar{
+            justify-content: flex-end;
+            margin-top: -8px;
+        }
+    }
 
     .all {
         margin-bottom: 20px;
@@ -46,6 +180,18 @@ body {
         background-color: red;
     }
 
+    p, a{
+        color: #fff;    
+    }
+
+    a:hover{
+        color: yellow;
+    }
+    h1{
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
     p,
     h1,
     h2,
@@ -53,7 +199,9 @@ body {
         margin : 0;
         padding: 0;
         border : 0;
+        color: #fff;    
     }
+
 
     .test {
         height: 40px;
@@ -71,6 +219,11 @@ body {
         img {
             width: 85%;
         }
+    }
+
+    .bt-form{
+        min-width: 280px;
+        max-width: 280px;
     }
 
     .players-box {
@@ -186,7 +339,125 @@ body {
     }
 }
 
+.pic-perfil{
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    .img-pic-perfil{
+            border: solid yellow 1px;
+            border-radius: 200px;
+            width: 320px;
+            height: 320px;
+            padding: 20px;
+        img{
+            border-radius: 200px;
+            width: 280px;
+            height: 280px;
+            object-fit: cover;
+            box-shadow: 0px 0px 20px 0px rgba(255,204,0,.8);
+        }
+    }
+    
+}
 
+.life{
+    margin-left: 0;
+    margin-top: 50px;
+    text-align: center;
+
+    .charge{
+        background-color: #c8000a;
+        line-height: 10px;
+        padding: 10px;
+        color: #FFF;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+    }
+    h1{
+        font-size: 28px;
+        color: #fff;
+        font-weight: 700;
+    }
+    p{
+        color: #c8a505;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    @media(min-width: 768px){
+        margin-left: 50px;
+        margin-top: 90px;
+    }
+}
+
+.box-points{
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    padding: 15px 20px 20px 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    h1{
+    font-size: 22px;
+    line-height: 40px;
+        span{
+            background-color: #c8000a;
+            line-height: 10px;
+            padding: 10px 10px 0px 10px;
+        } 
+    }
+    @media(min-width: 768px){
+        padding: 45px 20px 20px 20px;
+        h1{
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+    }
+    .room{
+        background-color: @primary-color;
+        color: white;   
+    }
+    .award{
+        background-color: #c8a505;
+        color: #000;
+    }
+    .capacity{
+        background-color: transparent;
+        border: 1px solid #fff;
+        color: white;
+        &.full{
+            background-color: red;
+            border: none;
+        }
+    }
+    .enter-room{
+        color: white;
+        background-color: transparent;
+        border: none;
+        &.full{
+            color: silver;
+            border: none;
+        }
+    }
+}
+
+.status{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    .point{
+        background-color: #c8a505;
+        border-radius: initial;
+        color: #000;
+        padding: 5px 18px 0px 18px;
+    }
+    .points{
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        color: #c8a505!important;
+    }
+}
 .background-players {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius   : 5px;
