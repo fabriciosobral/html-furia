@@ -89,6 +89,18 @@ table.custom td div {
   align-items: center;
   justify-content: center;
 }
+table.custom td:nth-child(1) {
+  width: 15%;
+}
+table.custom td:nth-child(2) {
+  width: 35%;
+}
+table.custom td:nth-child(3) {
+  width: 25%;
+}
+table.custom td:nth-child(4) {
+  width: 25%;
+}
 .user-page {
   padding: 20px;
   margin-top: 70px;
@@ -430,10 +442,14 @@ body .points p span {
   color: white;
   background-color: transparent;
   border: none;
+  padding: 23px;
+  width: 100%;
+  cursor: pointer;
 }
 .box-points .enter-room.full {
   color: silver;
   border: none;
+  cursor: auto;
 }
 .status {
   font-size: 35px;
