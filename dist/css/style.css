@@ -75,6 +75,20 @@ a.bt-default {
 .navbar-custom-furia {
   background-color: #000;
 }
+table.custom {
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+table.custom td {
+  border: none;
+  min-height: 30px;
+}
+table.custom td div {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .user-page {
   padding: 20px;
   margin-top: 70px;
@@ -148,6 +162,9 @@ body h1.custom {
   body h1.custom {
     margin-top: initial;
   }
+}
+body h1.custom.format-text {
+  font-style: italic;
 }
 body.profile {
   background-image: url(../../imagens/bg-perfil.png);
@@ -391,6 +408,32 @@ body .points p span {
     font-size: 32px;
     margin-bottom: 15px;
   }
+}
+.box-points .room {
+  background-color: #1e3c96;
+  color: white;
+}
+.box-points .award {
+  background-color: #c8a505;
+  color: #000;
+}
+.box-points .capacity {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: white;
+}
+.box-points .capacity.full {
+  background-color: red;
+  border: none;
+}
+.box-points .enter-room {
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+.box-points .enter-room.full {
+  color: silver;
+  border: none;
 }
 .status {
   font-size: 35px;

@@ -63,17 +63,9 @@
                 <div class="container all">
                     <h1 class="custom text-left">Lobby</h1>
                     <div class="row">
-                        <div class="col-sm-9">
-                            <div class="background-players">
-                                
-                            </div>
+                        <div class="col-sm-12">
+                            
 
-                            <div class="background-players">
-                                
-                            </div>
-
-                            <div class="background-players">
-                                
                             </div>
                         </div>
                         

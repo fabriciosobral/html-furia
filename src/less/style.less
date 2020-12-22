@@ -31,6 +31,24 @@
     background-color: #000;
 }
 
+
+table{
+    &.custom{
+        border-collapse:separate; 
+        border-spacing: 0 1em;
+
+        td{
+            border: none;
+            min-height: 30px;
+            div{
+                min-height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
 .user-page{
     padding: 20px;
     margin-top: 70px;
@@ -108,6 +126,10 @@ body {
 
         @media(min-width: 768px){
             margin-top: initial;
+        }
+
+        &.format-text{
+            font-style: italic;
         }
     }
 
@@ -388,6 +410,32 @@ body {
         h1{
             font-size: 32px;
             margin-bottom: 15px;
+        }
+    }
+    .room{
+        background-color: @primary-color;
+        color: white;   
+    }
+    .award{
+        background-color: #c8a505;
+        color: #000;
+    }
+    .capacity{
+        background-color: transparent;
+        border: 1px solid #fff;
+        color: white;
+        &.full{
+            background-color: red;
+            border: none;
+        }
+    }
+    .enter-room{
+        color: white;
+        background-color: transparent;
+        border: none;
+        &.full{
+            color: silver;
+            border: none;
         }
     }
 }
