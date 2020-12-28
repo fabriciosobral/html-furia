@@ -54,59 +54,139 @@
                     <h1 class="custom format-text">Lobby</h1>
                 </div>
             </div>
-            <div class="col-9 ml-auto mr-auto">
-                    <table class="table custom">
-                        <thead>
-                            <tr>
-                                <td>Sala</td>
-                                <td>Premiação</td>
-                                <td>Lotação</td>
-                                <td></td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="box-points lobby">
-                                <td>
-                                    <div class="room">
-                                        <span>#001</span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="award">
-                                        <span>#001</span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="capacity">
-                                        <span>#001</span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <button class="enter-room">Entrar >>></button>
-                                </td>
-                            </tr>
-                            <tr class="box-points">
-                                <td>
-                                    <div class="room">
-                                        <span>#001</span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="award">
-                                        <span>Camiseta Furia</span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="capacity full">
-                                        <span>25/25</span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <button class="enter-room full">Entrar >>></button>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <div class="col-12 col-lg-9 ml-0 mr-0 ml-lg-auto mr-lg-auto">
+                <table class="table custom">
+                    <thead>
+                        <tr>
+                            <td>Sala</td>
+                            <td>Premiação</td>
+                            <td>Lotação</td>
+                            <td></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="box-points">
+                            <td>
+                                <div class="room">
+                                    <span>#001</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="award">
+                                    <span>#001</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="capacity">
+                                    <span>#001</span>
+                                </div>
+                            </td>
+                            <td>
+                                <button class="enter-room">Entrar >>></button>
+                            </td>
+                        </tr>
+                        <tr class="box-points">
+                            <td>
+                                <div class="room">
+                                    <span>#001</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="award">
+                                    <span>#001</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="capacity">
+                                    <span>#001</span>
+                                </div>
+                            </td>
+                            <td>
+                                <button class="enter-room">Entrar >>></button>
+                            </td>
+                        </tr>
+                        <tr class="box-points">
+                            <td>
+                                <div class="room">
+                                    <span>#001</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="award">
+                                    <span>#001</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="capacity">
+                                    <span>#001</span>
+                                </div>
+                            </td>
+                            <td>
+                                <button class="enter-room">Entrar >>></button>
+                            </td>
+                        </tr>
+                        <tr class="box-points">
+                            <td>
+                                <div class="room">
+                                    <span>#001</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="award">
+                                    <span>#001</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="capacity">
+                                    <span>#001</span>
+                                </div>
+                            </td>
+                            <td>
+                                <button class="enter-room">Entrar >>></button>
+                            </td>
+                        </tr>
+                        <tr class="box-points">
+                            <td>
+                                <div class="room">
+                                    <span>#001</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="award">
+                                    <span>#001</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="capacity">
+                                    <span>#001</span>
+                                </div>
+                            </td>
+                            <td>
+                                <button class="enter-room">Entrar >>></button>
+                            </td>
+                        </tr>
+                        <tr class="box-points">
+                            <td>
+                                <div class="room">
+                                    <span>#001</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="award">
+                                    <span>Camiseta Furia</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="capacity full">
+                                    <span>25/25</span>
+                                </div>
+                            </td>
+                            <td>
+                                <button class="enter-room full">Entrar >>></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>

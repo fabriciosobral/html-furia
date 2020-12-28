@@ -37,9 +37,19 @@ table{
         border-collapse:separate; 
         border-spacing: 0 1em;
 
+        thead{
+            tr{
+                td{
+                    color:#6a6473;
+                }
+            }
+        }
+
         td{
+            padding: 0 2px;
             border: none;
-            min-height: 30px;
+            min-height: 25px;
+            vertical-align: middle;
             div{
                 min-height: 70px;
                 display: flex;
@@ -523,6 +533,24 @@ body {
 
 
 @media (min-width: 768px) {
+
+    table{
+        &.custom{
+            border-collapse:separate; 
+            border-spacing: 0 1em;
+            td{
+                padding: .75rem;
+            }
+            thead{
+                tr{
+                    td{
+                        color:#6a6473;
+                    }
+                }
+            }
+        }
+    }
+
     body {
 
         .points {

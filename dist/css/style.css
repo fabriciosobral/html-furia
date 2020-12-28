@@ -79,9 +79,14 @@ table.custom {
   border-collapse: separate;
   border-spacing: 0 1em;
 }
+table.custom thead tr td {
+  color: #6a6473;
+}
 table.custom td {
+  padding: 0 2px;
   border: none;
-  min-height: 30px;
+  min-height: 25px;
+  vertical-align: middle;
 }
 table.custom td div {
   min-height: 70px;
@@ -501,6 +506,16 @@ body .points p span {
   overflow: auto;
 }
 @media (min-width: 768px) {
+  table.custom {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+  }
+  table.custom td {
+    padding: 0.75rem;
+  }
+  table.custom thead tr td {
+    color: #6a6473;
+  }
   body .points p {
     right: 26px;
   }
