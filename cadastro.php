@@ -32,6 +32,30 @@
             </div>
 
         </div>
+        <div class="alert alert-danger">
+            <ul>
+                <li class="text-left">Esse é o alerta de error</li>
+                <li class="text-left">O campo email é obrigatório.</li>
+                <li class="text-left">O campo endereço é obrigatório.</li>
+            </ul>
+        </div>
+        <div class="alert alert-warning">
+            <ul>
+                <li class="text-left">Esse é o alerta de warning</li>
+                <li class="text-left">Esse coloquei duas linhas</li>
+            </ul>
+        </div>
+        <div class="alert alert-success">
+            <ul>
+                <li class="text-left">Esse é o alerta de success</li>
+            </ul>
+        </div>
+        <div class="alert alert-info">
+            <ul>
+                <li class="text-left">Esse é o alerta de info. Mexe nessa página mesmo, deixa os 4 aqui.</li>
+                <li class="text-left">Acho que deixa o fundo original deles, tira a bolinha e só coloca o ícone ao lado</li>
+            </ul>
+        </div>
         <form>
             <div class="row mb-3">
                 <div class="col-sm-4">
