@@ -41,6 +41,7 @@ table{
             tr{
                 td{
                     color:#6a6473;
+                    font-weight: 700;
                 }
             }
         }
@@ -50,6 +51,7 @@ table{
             border: none;
             min-height: 25px;
             vertical-align: middle;
+            font-weight: 700;
             div{
                 min-height: 70px;
                 display: flex;
@@ -61,13 +63,13 @@ table{
                 width: 15%;
             }
             &:nth-child(2){
-                width: 35%;
+                width: 45%;
             }
             &:nth-child(3){
-                width: 25%;
+                width: 15%;
             }
             &:nth-child(4){
-                width: 25%;
+                width: 15%;
             }
     
         }
@@ -127,9 +129,23 @@ table{
     position: fixed;
     z-index: 80;
     background: black;
+
+    nav{
+        div{
+            ul{
+                li{
+                    font-weight: 700;
+
+                    .dropdown-item{
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
 }
 body {
-    background-image     : url(../../imagens/bg.png);
+    background-image     : url(../../images/bg.png);
     background-repeat    : no-repeat;
     background-size      : cover;
     background-position  : left center;
@@ -154,11 +170,12 @@ body {
 
         &.format-text{
             font-style: italic;
+            font-weight: 700;
         }
     }
 
     &.profile{
-        background-image     : url(../../imagens/bg-perfil.png);
+        background-image     : url(../../images/bg-perfil.png);
         background-position  : top center;
         .navbar-expand-lg .navbar-collapse {
             justify-content: flex-end;
@@ -446,7 +463,7 @@ body {
     }
     .capacity{
         background-color: transparent;
-        border: 1px solid #fff;
+        border: 3px solid #fff;
         color: white;
         &.full{
             background-color: red;
