@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="logo">
-                    <img src="imagens/logo.png" class="img-fluid">
+                    <img src="images/logo.png" class="img-fluid">
                 </div>
                 <div class="players-box">
                     <?php include 'line.php'; ?>
@@ -53,21 +53,10 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
-                                        </div>
-                                    </div>
-                                    <div class="player-action">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
-                                        eveniet sapiente architecto.
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-row justify-content-start player-division">
-                                    <div class="versus">
-                                        <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">
@@ -78,10 +67,7 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
-                                        </div>
-                                        <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">
@@ -92,7 +78,10 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">
@@ -103,10 +92,7 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
-                                        </div>
-                                        <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">
@@ -117,7 +103,10 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">
@@ -128,10 +117,7 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
-                                        </div>
-                                        <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">
@@ -142,7 +128,10 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">
@@ -153,10 +142,7 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
-                                        </div>
-                                        <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">
@@ -167,7 +153,10 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">
@@ -178,10 +167,7 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
-                                        </div>
-                                        <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">
@@ -192,7 +178,10 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">
@@ -203,10 +192,7 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
-                                        </div>
-                                        <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">
@@ -217,7 +203,10 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">
@@ -228,10 +217,7 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
-                                        </div>
-                                        <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">
@@ -242,7 +228,10 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">
@@ -253,10 +242,7 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
-                                        </div>
-                                        <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">
@@ -267,7 +253,21 @@
                                 <div class="d-flex flex-row justify-content-start player-division">
                                     <div class="versus">
                                         <div class="player">
-                                            <img src="../imagens/anonimo.png" alt="player">
+                                            <img src="../images/anonimo.png" alt="player">
+                                        </div>
+                                        <div class="player">
+                                            <img src="../images/anonimo.png" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="player-action">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae quae adipisci
+                                        eveniet sapiente architecto.
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start player-division">
+                                    <div class="versus">
+                                        <div class="player">
+                                            <img src="../images/anonimo.png" alt="player">
                                         </div>
                                     </div>
                                     <div class="player-action">

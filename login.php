@@ -64,7 +64,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="logo">
-                                <img src="imagens/logo.png" class="img-fluid logofuria">
+                                <img src="images/logo.png" class="img-fluid logofuria">
                             </div>
                         </div>
                         <div class="col-12">
@@ -90,7 +90,7 @@
                         </div>
                         <div class="col-12">
                             <div class="logo-selo text-center">
-                                <img src="imagens/furia-selo.png" class="img-fluid logofuria">
+                                <img src="images/furia-selo.png" class="img-fluid logofuria">
                             </div>
                         </div>
                     </div>

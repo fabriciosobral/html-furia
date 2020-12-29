@@ -49,12 +49,12 @@
     </div>                     
     <div class="container">
         <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-                <div class="pic-perfil d-flex flex-column align-items-center">
+            <div class="col-12 d-flex justify-content-start">
+                <div class="mt-5 pt-1 d-flex flex-column align-items-center">
                     <h1 class="custom format-text">Lobby</h1>
                 </div>
             </div>
-            <div class="col-12 col-lg-9 ml-0 mr-0 ml-lg-auto mr-lg-auto">
+            <div class="col-12 ml-0 mr-0 ml-lg-auto mr-lg-auto">
                 <table class="table custom">
                     <thead>
                         <tr>
